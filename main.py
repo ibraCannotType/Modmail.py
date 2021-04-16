@@ -26,7 +26,7 @@ async def on_ready():
 @client.command()
 async def ping(ctx):
     embed = discord.Embed(description=f"Pong! **{round(client.latency *1000)}**ms" ,color=0x8CFED8)
-    embed.set_author(name="ModMail", url="https://discord.gg/V7ceH6G2sR", icon_url="https://cdn.discordapp.com/attachments/832298312878129154/832371283487621160/04ac35281008696496d14c99a7ff1ad0.png")
+    embed.set_author(name="ModMail", url="https://discord.gg/m7ZbuSP4y8", icon_url="https://cdn.discordapp.com/attachments/832430398377689159/832574187180261396/Lmail.png")
     await ctx.reply(embed=embed)
 
 # Modmail command
@@ -37,9 +37,9 @@ async def modmail(ctx, *, message=None):
    if message == None:
       return await ctx.reply('> Please type things to send this mail to the staff!')
    if isinstance(ctx.channel, discord.channel.DMChannel):
-     channel = client.get_channel(832360219307802654)
+     channel = client.get_channel(CHANNEL_ID)
      embed = discord.Embed(title=f"We found a new mail! 📧" ,description=f"**{message}**" ,color=0x8CFED8)
-     embed.set_author(name="ModMail", url="https://discord.gg/V7ceH6G2sR", icon_url="https://cdn.discordapp.com/attachments/832298312878129154/832371283487621160/04ac35281008696496d14c99a7ff1ad0.png")
+     embed.set_author(name="ModMail", url="https://discord.gg/m7ZbuSP4y8", icon_url="https://cdn.discordapp.com/attachments/832430398377689159/832574187180261396/Lmail.png")
      embed.set_footer(text=f"{author}")
      embed.set_thumbnail(url=f"{author.avatar_url}")
      await channel.send(embed=embed)
