@@ -1,7 +1,7 @@
 #-----------------------------------------
 #|-----https://discord.gg/m7ZbuSP4y8------
 #|--------------- Mod Mail ---------------
-#| This Code Made By acknowledgement#5404
+#| -----This Code Made By Vibin'#5404-----
 #| Thx for : Glowstikk#5127 for helping !
 #|--------------- Mod Mail ---------------
 #|-----https://discord.gg/8HwNSV9qaE------
