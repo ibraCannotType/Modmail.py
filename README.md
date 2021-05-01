@@ -6,7 +6,7 @@
 
 ``` 
 $ pip install discord 
-$ pip install asyinco
+$ pip install asyncio
 ```
 
 ```py
