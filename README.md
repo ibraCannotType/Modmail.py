@@ -2,12 +2,16 @@
 ### Modmail discord bot 
 
 
-**First thing** you have to install [python](https://www.python.org/downloads/) 
 
-> After that you have to install discord.py lib using pip
 
 ``` 
 $ pip install discord 
+$ pip install asyinco
+```
+
+```py
+import discord
+import asyncio
 ```
 
 ## You can clone the files using [Git](https://git-scm.com/downloads)
